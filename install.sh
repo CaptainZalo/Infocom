@@ -1,4 +1,5 @@
 #!/bin/bash
 echo Install dependencies
-sudo apt-get install frotz -y
-echo Run Infocom games by command 'frotz /path/to/file/'
+sudo apt-get install frotz zenity -y
+echo Run Zenity frontend with command ~/Infocom/play.sh and choose a game to play.
+echo Profit!
