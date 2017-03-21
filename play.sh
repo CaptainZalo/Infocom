@@ -7,7 +7,7 @@ if [ "$?" -eq 1 ]; then
 else
  #  cd $system
    files=$(ls -Q *dat)
-   rom=$(eval zenity --list --column "Infocom Games" $files --width=480 --height=272)
+   rom=$(eval zenity --list --column "Infocom\ Games" $files --width=480 --height=272)
    if [ "$?" -eq 1 ]; then
       echo "Cancelled."
    else
